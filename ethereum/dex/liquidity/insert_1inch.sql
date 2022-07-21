@@ -21,6 +21,7 @@ dex_all_versions AS (
 dex_wallet_balances AS (
     SELECT
         balances.wallet_address,
+
         balances.token_address,
         balances.amount_raw,
         balances.timestamp,
